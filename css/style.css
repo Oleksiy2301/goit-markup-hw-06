@@ -1,64 +1,13 @@
-h1, h2, h3, h4, h5, h6, p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul, ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-
-img {
-    display: block;
-}
-
-.list {
-    list-style-type: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
-button { 
-    cursor: pointer;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background: #FFFFFF;
-}
 
 /* header-section */
 
-.page-header {
+/* .page-header {
     border-bottom: 1px solid #e7e9fc;
     
     box-shadow: 
     0px 2px 1px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .page-header-container {
@@ -72,7 +21,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17; /* 116.667% */
+    line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
@@ -83,7 +32,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17; /* 116.667% */
+    line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -101,7 +50,7 @@ body {
 .menu-link {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #2E2F42;
     display: block;
@@ -145,7 +94,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
     display: block;
@@ -157,7 +106,7 @@ body {
 .address-link:hover,
 .address-link:focus {
     color: #404BBF;
-}
+} */
 
 /* main-section */
 .main {

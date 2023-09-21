@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
@@ -38,6 +39,15 @@
             </li>
           </ul>
         </nav>
+        <button class="open-mobile-menu-btn" type="button">
+          <svg 
+          class="open-mobile-menu-icon"
+          width="24"
+          height="24"
+          aria-label="mobile menu burger">
+            <use href="./images/icons.svg#burger-icon"></use>
+          </svg>
+        </button>
         <address class="address">
           <ul class="address-list list">
             <li class="address-item">
@@ -47,8 +57,8 @@
             </li>
             <li class="address-item">
               <a class="address-link link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+                >+11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
@@ -56,6 +66,7 @@
     </header>
 
     <!-- main section -->
+<!--     
     <main>
       <section class="main">
         <div class="container">
@@ -65,9 +76,10 @@
           </h1>
           <button class="btn" type="button">Order Service</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- section about -->
+<!--       
       <section class="plan">
         <div class="container">
           <h2 class="visually-hidden">rules</h2>
@@ -122,14 +134,18 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- team section -->
-      <section class="team">
+      
+      <!-- <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
+            -->
+
             <!-- first-item-box -->
+<!--             
             <li class="team-list-item">
               <img
                 class="team-list-photo"
@@ -191,8 +207,10 @@
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> -->
+
             <!-- second-item-box -->
+<!--             
             <li class="team-list-item">
               <img
                 class="team-list-photo"
@@ -254,9 +272,12 @@
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> -->
+
             <!-- third-item-box -->
-            <li class="team-list-item">
+<!-- 
+            <li class="team-l
+            ist-item">
               <img
                 class="team-list-photo"
                 src="./images/womanbox3.jpg"
@@ -317,8 +338,10 @@
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> -->
+
             <!-- fourth-item-box -->
+<!--             
             <li class="team-list-item">
               <img
                 class="team-list-photo"
@@ -380,12 +403,14 @@
                   </li>
                 </ul>
               </div>
-            </li>
+            </li> -->
+<!--             
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Portfolio -->
+<!--       
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -513,9 +538,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- footer section -->
+<!--     
     <footer class="footer">
       <div class="footer-container container">
         <div class="logo-container">
@@ -607,10 +633,12 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Модальне Вікно -->
-    <div class="backdrop"> <!-- сменить клас на backdrop is-open для открития модального окна -->
+    <!-- сменить клас на backdrop is-open для открития модального окна -->
+<!--     
+    <div class="backdrop"> 
       <div class="modal">
         <button class="close-btn" type="button">
           <svg 
@@ -735,6 +763,22 @@
           <button class="review-form-submit" type="submit">Send</button>
         </form>
       </div>
+    </div> -->
+
+    <!-- Mobile menu -->
+    <!-- заменить клас на mobile-menu is-open для открития моильного меню -->
+    <div class="mobile-menu "> 
+      <button class="mobile-menu-close-btn" type="button">
+        <svg 
+        class="mobile-menu-close-icon"
+        width="8"
+        height="8"
+        aria-label="mobile close icon">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+
+      
     </div>
 
   </body>
