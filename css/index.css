@@ -1,10 +1,15 @@
-    /* Utils */
+/* Utils */
 @import './utils/visually-hidden.css';
 
-    /* BASE */
+/* BASE */
 @import './base/common.css';
 @import './base/container.css';
-@import './base/section.css';
 
 /* LAYOUT */
 @import './layout/header.css';
+@import './layout/hero.css';
+@import './layout/advantage.css';
+@import './layout/team.css';
+@import './layout/portfolio.css';
+@import './layout/footer.css';
+@import './layout/modal.css';
